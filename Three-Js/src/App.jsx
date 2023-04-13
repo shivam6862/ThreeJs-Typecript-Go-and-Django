@@ -5,6 +5,7 @@ import Ball from "./component/threeJs/Ball";
 import Header from "./component/Header";
 import Line from "./component/threeJs/Line";
 import Text from "./component/threeJs/Text";
+import MultipleBall from "./component/threeJs/MultipleBall";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
       </div>
       <Ball />
+      <MultipleBall />
       <Line />
       <Text />
     </div>
