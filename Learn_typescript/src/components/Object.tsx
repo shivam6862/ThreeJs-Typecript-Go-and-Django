@@ -1,9 +1,11 @@
-type ObjectProps = {
-  name: {
-    first: string;
-    last: string;
-  };
-};
+// type ObjectProps = {
+//   name: {
+//     first: string;
+//     last: string;
+//   };
+// };
+
+import { ObjectProps } from "../type/Object";
 
 export const Object = (props: ObjectProps) => {
   return (

@@ -1,8 +1,14 @@
+// type ArrayOfObjectProps = {
+//   nameList: {
+//     first: string;
+//     last: string;
+//   }[];
+// };
+
+import { Name } from "../type/Object";
+
 type ArrayOfObjectProps = {
-  nameList: {
-    first: string;
-    last: string;
-  }[];
+  nameList: Name[];
 };
 
 export const ArrayOfObject = (props: ArrayOfObjectProps) => {

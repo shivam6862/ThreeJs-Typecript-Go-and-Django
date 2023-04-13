@@ -7,6 +7,7 @@ import { Children } from "./components/Children";
 import { OscarChildren } from "./components/OscarChildren";
 import { Click } from "./components/Click";
 import { ChangeInput } from "./components/ChangeInput";
+import { LearnStyling } from "./components/LearnStyling";
 
 import { nameList } from "./Data/nameList";
 import { personName } from "./Data/personName";
@@ -30,7 +31,11 @@ function App() {
             console.log("Button Clicked!", event, id);
           }}
         />
-        <ChangeInput value="" handleChange={(event) => console.log(event.target.value)} />
+        <ChangeInput
+          value=""
+          handleChange={(event) => console.log(event.target.value)}
+        />
+        <LearnStyling styles={{ border: "2px solid green", padding: "1rem" }} />
       </div>
     </div>
   );
