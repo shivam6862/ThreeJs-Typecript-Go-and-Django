@@ -1,13 +1,23 @@
 .App {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: rgb(189, 255, 233);
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.heading {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  font-size: 4rem;
+  transform: translate(-50%, -50%);
 }
 
 body {
   padding: 0;
   margin: 0;
+  background-color: rgb(189, 255, 233);
 }
 
 button {
@@ -20,6 +30,7 @@ button {
   font-weight: bold;
   outline: none;
   padding: 6px;
+  margin: 5px;
 }
 
 input {
