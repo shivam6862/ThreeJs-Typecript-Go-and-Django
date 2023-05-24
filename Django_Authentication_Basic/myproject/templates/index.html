@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Django app</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}" />
+    <!-- <link rel="stylesheet" href="../static/style.css" /> -->
+  </head>
+  <body>
+    <!-- <h1>welcome, {{name}}</h1> -->
+    <!-- <h1>enrollement {{enrollement}}</h1> -->
+
+    <div class="buttons">
+      {%if user.is_authenticated %}
+      <a class="button" href="/logoutUser">Log Out</a>
+      {%else%}
+      <a class="button" href="/loginUser">Login</a>
+      <a class="button" href="/register">Sign up</a>
+      {%endif%}
+    </div>
+
+    {%if user.is_authenticated %}
+    <h1>Welcome , {{user.username}}</h1>
+    {%endif%}
+    <h1>Input your text below</h1>
+    <form action="counter" method="post">
+      {%csrf_token%}
+      <textarea name="text" id="" cols="" rows="10"></textarea>
+      <br />
+      <input type="submit" />
+    </form>
+    <div class="container">
+      {% for feature in features %}
+      <div class="box">
+        <div class="heading">{{feature.name}}</div>
+        <div class="details">{{feature.details}}</div>
+        <!-- {% if feature.is_true != True %}
+        <div class="details">True</div>
+        {% else %}
+        <div class="details">False</div>
+        {% endif %} -->
+      </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>
