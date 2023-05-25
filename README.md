@@ -1,18 +1,19 @@
 <div align="center">
-<h2 align="center">Three js and Typecript</h2>
+<h2 align="center">Threejs, Typecript and Django</h2>
   <p align="center">
-   Few project on threeJs and Basic of Typecript
+   Few project on threeJs, Basic of Typecript and Django Basic Authentication process.
     <br />
 </div>
 
 ## About The Project
 
-Project on Three Js and Basic of Typecript
+Project on ThreeJs, Basic of Typecript and Django Basic Authentication Process
 
 ### Built With
 
 - [react-url]
 - [Three-js]
+- [Django]
 - [VisualStudioCode-url]
 
 ## Getting Started
@@ -23,7 +24,7 @@ So as to run our project locally, you need to follow the steps below.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/shivam6862/ThreeJs_and_Typecript
+   git clone https://github.com/shivam6862/ThreeJs_and_Typecript.git
    ```
 2. Install NPM packages on Three-js folder and Learn_Typecript folder
    ```sh
@@ -33,12 +34,24 @@ So as to run our project locally, you need to follow the steps below.
    ```sh
    npm run dev
    ```
+4. Run the project in Django_Authentication_Basic folder using
+   ```sh
+   pip install virtualenv
+   virtualenv env
+   env\scripts\activate
+   pip install django
+   django-admin startproject projectName
+   cd projectName
+   python manage.py runserver
+   ```
 
 ## Description
 
 Few project on threeJs...<br/>
 
 Basic of Typecript<br/>
+
+Basic of Django and Authentication in Django <br/>
 
 ## Contact
 
@@ -51,4 +64,5 @@ Project Link: [https://github.com/shivam6862/ThreeJs_and_Typecript](https://gith
 [react-url]: https://reactjs.org/
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [three-js]: https://threejs.org/docs/index.html#manual/en/introduction/Installation
+[Django]: https://github.com/django/django
 [visualstudiocode-url]: https://code.visualstudio.com/
