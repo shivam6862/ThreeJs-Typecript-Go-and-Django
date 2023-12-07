@@ -1,7 +1,7 @@
 <div align="center">
-<h2 align="center">Threejs, Typecript, Go and Django</h2>
+<h2 align="center">Threejs, Typecript, Go, Ruby and Django</h2>
   <p align="center">
-   Few project on threeJs, Basic of Typecript , Go and Django Basic Authentication process.
+   Few project on threeJs, Basic of Typecript , Go, Ruby and Django Basic Authentication process.
     <br />
 </div>
 
@@ -15,6 +15,7 @@ Project on ThreeJs, Basic of Typecript, GO and Django Basic Authentication Proce
 - [Three-js]
 - [Django]
 - [Go]
+- [Ruby]
 - [VisualStudioCode-url]
 
 ## Getting Started
@@ -52,6 +53,8 @@ Few project on threeJs...<br/>
 
 Basic of Typecript<br/>
 
+Basic of Ruby<br/>
+
 Basic of Go<br/>
 
 Basic of Django and Authentication in Django <br/>
@@ -70,3 +73,4 @@ Project Link: [https://github.com/shivam6862/ThreeJs_and_Typecript](https://gith
 [Django]: https://github.com/django/django
 [Go]: https://go.dev/doc/
 [visualstudiocode-url]: https://code.visualstudio.com/
+[Ruby]: https://www.ruby-lang.org/en/documentation/
